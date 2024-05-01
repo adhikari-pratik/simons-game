@@ -1,0 +1,63 @@
+body{
+    background-color: #011f3f;
+    color: #fef2bf;
+
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.squares{
+    display: block;
+    width: 50%;
+    margin: 5px auto;
+
+}
+
+.button{
+    width: 200px;
+    height: 200px;
+    margin: 25px;
+    display: inline-block;
+    border: 10px solid black;
+    border-radius: 20%;
+    
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.pressed{
+    box-shadow: 0 0 3px grey;
+    background-color: grey;
+}
+
+.gameover{
+    font-size: 100px;
+    text-align: center;
+    margin: 100px;
+}
+
+.highScore{
+    font-size: 60px;
+    text-align: center;
+    margin: 100px;
+    display: none;
+}
+
